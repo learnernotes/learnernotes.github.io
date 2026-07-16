@@ -1,3 +1,14 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+p,
+li {
+  line-height: 2rem;
+}
+
+pre,
+code,
+figure[data-rehype-pretty-code-figure] *,
+.ltr,
+.ltr * {
+  direction: ltr;
+}
