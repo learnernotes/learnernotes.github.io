@@ -1,8 +1,12 @@
 @use "./variables.scss" as *;
 
-p,
-li {
+article p,
+article li {
   line-height: 2rem;
+}
+
+.search .result-card {
+  text-align: start !important;
 }
 
 pre,
